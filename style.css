@@ -1,5 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap');
+/*-----------------------------------------------------------------
 
+--------FONT FAMILY LINK IMPORT FROM GOOGLE FONTS WEBSITE ---------
+
+-----------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap');
+/*-----------------------------
+
+--------BODY NORMALISE----------
+
+------------------------------*/
 body{
     margin: 0;
     padding: 0;
@@ -7,6 +16,11 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #f5f7ef;
 }
+/*----------------------------
+
+--------HEADER SECTION -------
+
+-----------------------------*/
 .menu-bar{
     display: flex;
     justify-content: space-between;
@@ -43,6 +57,11 @@ body{
     padding: 7px;
     border-radius: 5px;
 }
+/*------------------------------
+
+---------BANNER SECTION --------
+
+------------------------------*/
 .banner{
     display: flex;
     margin-left: 0px;
@@ -92,6 +111,11 @@ body{
     transform: rotate(10deg);
     transition: 5s;
 }
+/*---------------------------------------
+
+--------PRODUCTS SELL SECTION ----------
+
+-------------------------------------- */
 .container{
     margin-top: -155px;
     margin-bottom: 120px;
@@ -145,6 +169,11 @@ body{
     text-decoration: none;
     color: #E02C6D;
 }
+/*----------------------------
+
+--------CUSTOMERS REVIEWS ----
+
+-----------------------------*/
 .rev-body{
     display: flex;
     height: 100%;
@@ -209,6 +238,11 @@ body{
     letter-spacing: 1px;
     color: rgb(150, 150, 150);
 }
+/* --------------------------
+
+-----FOOTER SECTION --------
+
+--------------------------*/
 footer{
     background-color: #0A0826;
     color: #fff;
@@ -299,3 +333,9 @@ footer{
         margin-left: 100px;
     }
 }
+    
+    /* -------------------------
+    
+    ----------END CODE ---------
+    
+    ---------------------------*/
