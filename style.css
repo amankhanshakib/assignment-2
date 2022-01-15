@@ -285,7 +285,7 @@ footer{
         margin: 0 8px;
     }
     .banner{
-        margin-bottom: 300px;
+        margin-bottom: -300px;
         padding-right: 80px;
         flex-direction: column;
         align-items: center;
