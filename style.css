@@ -277,3 +277,26 @@ footer{
 /*----------------------------------------------
 ---- FOR TABLET OR BIGGER THEN MOBILE PHONE---
 ---------------------------------------------- */
+@media only screen and (min-width: 689px) and (max-width: 992px){
+    .banner{
+
+        margin-bottom: -250px;
+    }
+    .h3{
+        margin-left: 50px;
+        line-break: auto;
+    }
+    .menu-bar .dropdown{
+        margin-right: 30px;
+    }
+    .img-sec{
+        margin-right: 20px;
+        margin-top: 180px;
+    }
+    .items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .see-more p{
+        margin-left: 100px;
+    }
+}
