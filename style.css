@@ -212,7 +212,7 @@ body{
 footer{
     background-color: #0A0826;
     color: #fff;
-    padding: 40px;
+    padding: 30px;
 }
 .footer-h2{
     text-align: center;
@@ -232,9 +232,48 @@ footer{
     font-size: 25px;
     color: #fff;
 }
-
-@media (max-width: 678px){
+/*----------------------
+------ Media Quaries----
+----------------------- */
+/*----------------------
+---- FOR MOBILE PHONE---
+--------------------- */
+@media only screen and (max-width: 688px){
+    .menu-bar{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .menu-bar .dropdown{
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    .menu-bar .dropdown li{
+        margin: 0 8px;
+    }
+    .banner{
+        background-color: red;
+        margin-bottom: 300px;
+        padding-right: 80px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .head-line{
+        width: 100%;
+    }
+    .img-sec{
+        margin-right: -100px;
+    }
+    .items{
+        grid-template-columns: repeat(1, 1fr);  
+    }
     .review{
         margin-top: 20px;
     }
 }
+/*----------------------------------------------
+---- FOR TABLET OR BIGGER THEN MOBILE PHONE---
+---------------------------------------------- */
